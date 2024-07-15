@@ -14,10 +14,6 @@ function comprar() {
         return false
     }
 
-    if (quantidade = '') {
-        document.getElementById('qtd').value = ''
-        return false
-    }
     
     if (tipoIngresso == "pista") {
         totalPista = numeroMaximoPermitido(quantidade, totalPista);
