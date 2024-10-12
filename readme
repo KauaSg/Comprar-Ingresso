@@ -1,0 +1,31 @@
+e-Ticket
+Descrição do Projeto
+O e-Ticket é uma aplicação para a compra de ingressos, permitindo que os usuários escolham o tipo de ingresso desejado e a quantidade. A aplicação verifica a disponibilidade dos ingressos e atualiza a quantidade restante em tempo real. Desenvolvido em HTML, CSS e JavaScript, este projeto oferece uma interface amigável e interativa para facilitar a compra de ingressos.
+
+Funcionalidades
+-- Escolha de Tipo de Ingresso: O usuário pode selecionar entre Cadeira Inferior, Cadeira Superior e Pista.
+-- Verificação de Disponibilidade: A aplicação verifica a quantidade disponível para cada tipo de ingresso e atualiza os valores conforme as compras são realizadas.
+-- Alerta de Quantidade: Se a quantidade desejada exceder o estoque disponível, o sistema exibe um alerta informando a indisponibilidade.
+-- Compra e Atualização em Tempo Real: A compra é confirmada por meio de um alerta, e a quantidade disponível é atualizada automaticamente.
+
+Estrutura do Projeto
+-- HTML: Estrutura o layout da página, incluindo formulários e elementos visuais para a exibição de ingressos disponíveis.
+-- CSS: Define o design da interface, com uma paleta de cores e elementos visuais que tornam o site intuitivo e agradável.
+-- JavaScript: Implementa a lógica para a seleção de ingressos, controle de quantidade e atualização do display em tempo real.
+
+Tecnologias Utilizadas
+-- HTML
+-- CSS
+-- JavaScript
+
+Como Utilizar
+-- Selecionar Tipo e Quantidade de Ingressos:
+Selecione o tipo de ingresso no menu suspenso e insira a quantidade desejada. Clique no botão "Comprar" para efetuar a compra.
+
+-- Verificar Disponibilidade:
+A quantidade disponível de cada tipo de ingresso é exibida na seção "Quantidade disponível". Ao realizar a compra, os valores são atualizados automaticamente.
+
+Estrutura de Arquivos
+-- index.html: Estrutura da página principal com o layout e elementos de interface.
+-- style.css: Arquivo de estilização para aplicar o design visual.
+-- app.js: Arquivo de script que controla a lógica de compra de ingressos, atualização da quantidade disponível e exibição de alertas.
